@@ -19,12 +19,12 @@ public class Programa{
         contaMaria.transfere(5, contaRamon);
         
 
-        // for(int i = 0; i < contas.length; i++){
-        //     System.out.println("Banco: " + contas[i].banco);
-        //     System.out.println("Agência: " + contas[i].agencia);
-        //     System.out.println("Titular: " + contas[i].titular);
-        //     System.out.println("Saldo: " + contas[i].saldo + "\n");
-        // }
+        for(int i = 0; i < contas.length; i++){
+            System.out.println("Banco: " + contas[i].banco);
+            System.out.println("Agência: " + contas[i].agencia);
+            System.out.println("Titular: " + contas[i].titular);
+            System.out.println("Saldo: " + contas[i].saldo + "\n");
+        }
         
 
     }
