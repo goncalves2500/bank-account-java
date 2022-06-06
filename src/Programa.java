@@ -1,6 +1,4 @@
-import pacote_conta.Conta;
-
-public class Programa {
+public class Programa{
     public static void main(String[] args) {
         Conta[] contas = new Conta[2];
         
